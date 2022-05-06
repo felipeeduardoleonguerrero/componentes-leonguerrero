@@ -1,0 +1,20 @@
+.wrapper {
+    display:grid;
+    grid-template-rows: auto auto;
+    grid-template-columns:auto auto auto;
+    grid-template-areas:
+        "menu content content"
+        "toolbar toolbar toolbar"
+}
+
+.menu {
+    grid-area:menu;
+}
+
+.content {
+    grid-area:content;
+}
+
+.toolbar {
+    grid-area:toolbar;
+}

@@ -1,0 +1,26 @@
+div.d-flex {
+    min-width:140px;
+}
+
+.bg-light {
+    background-color:#ffffff !important;
+}
+
+.bi-globe2 {
+    margin-right:10px !important;
+}
+
+a.d-flex {
+    margin-bottom:0 !important;
+}
+
+@media (max-width:360px) {
+    .nav-pills, span {
+        font-size:14px !important;
+    } 
+
+    .bi-chevron-right {
+        width:10px;
+    }
+
+}
